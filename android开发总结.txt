@@ -831,8 +831,7 @@ c) 开始测试，测试规则如下：
     1. A电视测试system相关模块。   测试命令  run cts --disable-reboot --skip-preconditions --exclude-filter CtsDeqpTestCases --exclude-filter CtsVideoTestCases --exclude-filter CtsMediaTestCases --exclude-filter CtsMediaStressTestCases
     2. B电视测试deqp相关模块。  测试命令   run cts --disable-reboot --skip-preconditions --m CtsDeqpTestCases
     3. C电视测试多媒体相关模块。测试命令 run cts --disable-reboot --skip-preconditions --include-filter CtsVideoTestCases --include-filter CtsMediaTestCases --include-filter CtsMediaStressTestCases
-    将所有模块分三大部分同时进行测试，一般情况下一天即可出所有测试结果 (前一天上班时开测，第二天上班时测试已经完成)
-    (ps: 多媒体相关模块由多媒体同事来负责，平台负责其他2个大的模块。 如果电视平台是64位的，则快速出结果的测试时，测试命令加上参数 -a arm64-v8a, 若是32位的则不需要。 使用该参数，测试时只测试64位用例，节约时间。 32和64基本是同样的)
+    将所有模块分三大部分同时进行测试，一般情况下一天即可出所有测试结果 
     
     
     
